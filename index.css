@@ -15,31 +15,50 @@ h1 {
 .main-container {
   display: flex;
   flex-direction: column;
+  justiy-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.main-content {
+  width: 50%;
+  max-width: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px solid white;
 }
 
 #message-el {
   font-style: italic;
 }
 
-#cards-el {
+.player,
+.dealer {
   border: 1px solid white;
   padding: 15px 15px 15px 15px;
+  margin: 15px;
+  background-color: #eeeeee20;
 }
 
-#sum-el {
+#player-sum-el {
 }
 
 button {
   color: #016f32;
   width: 150px;
   background: goldenrod;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
   border: none;
   border-radius: 2px;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
 }
