@@ -111,3 +111,24 @@ if (playerSum > dealerSum && playerIsAlive === true) {
 // if player sum is great than dealer sum and dealer is alive is true
 // then player win
 // else if dealer
+
+/* NOTES */
+
+// SETTING THE STAGE
+/* const player = "Justin"
+const opponent = "Dealer"
+const game = "Blackjack"
+
+let points = 0
+let hasWon = false
+
+// PLAYING THE GAME
+points += 100
+hasWon = true
+
+// ANNOUNCING THE WINNER
+if (hasWon) {
+    console.log(`${player} got ${points} points and won ${game} game!`)
+} else {
+    console.log(`The winner is ${opponent}! ${player} lost the game`)
+} */
